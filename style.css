@@ -1,0 +1,50 @@
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.container .image {
+  color: #fff;
+  background-image: url("coffee-beans.jpg");
+  flex: 1 1 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container .image .logo {
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin-top: 180px;
+  padding: 1px;
+  font-size: 24px;
+  font-style: italic;
+}
+
+.container .image .footer {
+  text-align: center;
+}
+
+.container .signup {
+  flex: 1 1 70%;
+  background-color: #fbfbfb;
+}
+
+.container .signup .desc {
+  margin: 120px 150px 30px 40px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.container .signup .desc p:first-child {
+  margin-bottom: -15px;
+}
+
+.container .signup .signup-form {
+  background-color: #fff;
+}
