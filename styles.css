@@ -61,6 +61,7 @@ html {
 .container .signup .signup-form {
   background-color: #fff;
   padding: 20px 150px 40px 40px;
+  box-shadow: 1px 1px 5px rgba(1, 1, 1, 0.5);
 }
 
 .container .signup .signup-form h3 {
@@ -83,11 +84,13 @@ html {
 
 .signup .signup-form .form-row .form-col label {
   font-size: 12px;
-  font-weight: 400;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: rgb(64, 60, 60);
 }
 
 .container .signup .action {
-  margin: 20px 40px;
+  margin: 30px 40px;
 }
 
 .container .signup .action button {
