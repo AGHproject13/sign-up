@@ -1,0 +1,113 @@
+:root {
+  --coffee: #b6895b;
+}
+
+html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.container .image {
+  color: #fff;
+  background-image: url("coffee-beans.jpg");
+  flex: 1 1 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container .image .logo {
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  margin-top: 180px;
+  padding: 1px;
+  font-size: 24px;
+  font-style: italic;
+}
+
+.container .image .logo h1 span {
+  color: var(--coffee);
+}
+
+.container .image .footer {
+  text-align: center;
+}
+
+.container .image .footer a {
+  color: #fff;
+}
+
+.container .signup {
+  flex: 1 1 70%;
+  background-color: #fbfbfb;
+}
+
+.container .signup .desc {
+  margin: 120px 150px 50px 40px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.container .signup .desc p:first-child {
+  margin-bottom: -15px;
+}
+
+.container .signup .signup-form {
+  background-color: #fff;
+  padding: 20px 150px 40px 40px;
+}
+
+.container .signup .signup-form h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.container .signup .signup-form .form-row {
+  margin-top: 20px;
+  display: flex;
+}
+
+.signup .signup-form .form-row .form-col {
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+  flex: 1;
+}
+
+.signup .signup-form .form-row .form-col label {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.container .signup .action {
+  margin: 20px 40px;
+}
+
+.container .signup .action button {
+  display: inline-block;
+  background-color: var(--coffee);
+  padding: 10px 40px;
+  color: #fff;
+  font-size: 15px;
+  border-color: var(--coffee);
+  border-style: solid;
+  border-radius: 5px;
+}
+
+.container .signup .action p {
+  margin-top: 1.5rem;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.container .signup .action p a {
+  text-decoration: none;
+  color: var(--coffee);
+}
