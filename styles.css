@@ -58,7 +58,7 @@ html {
   margin-bottom: -15px;
 }
 
-.container .signup .signup-form {
+.container .signup .signup-form .form-box {
   background-color: #fff;
   padding: 20px 150px 40px 40px;
   box-shadow: 1px 1px 5px rgba(1, 1, 1, 0.5);
@@ -100,6 +100,11 @@ html {
 
 .signup .signup-form .form-row .form-col input:focus {
   border-color: blue;
+  box-shadow: 1px 1px 5px rgba(1, 1, 3, 0.5);
+}
+
+.signup .signup-form .form-row .form-col input:invalid {
+  border-color: red;
   box-shadow: 1px 1px 5px rgba(1, 1, 3, 0.5);
 }
 
